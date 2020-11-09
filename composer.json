@@ -6,23 +6,8 @@
             "email": "yaizafritis@gmail.com"
         }
     ],
-    "license": "MIT",
     "require": {
         "ipinfo/ipinfo": "^1.1",
         "foolz/inet": "^0.6.0"
-    },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "scripts": {
-        "post-install-cmd": [
-            "php artisan clear-compiled",
-            "chmod -R 777 public/"
-        ]
     }
-
 }
