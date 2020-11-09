@@ -9,5 +9,9 @@
     "require": {
         "ipinfo/ipinfo": "^1.1",
         "foolz/inet": "^0.6.0"
-    }
+    },
+    "post-install-cmd": [
+        "php artisan clear-compiled",
+        "chmod -R 777 public/"
+    ]
 }
