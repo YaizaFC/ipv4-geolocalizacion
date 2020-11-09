@@ -1,0 +1,24 @@
+<html>
+
+<body>
+    <input type="text" id="ip" name="ip" placeholder="Introduce una IP" value=""><br>
+    <input type="" id="btnIp" onclick="vaciar()" value="vaciar"></input>
+    <p id="valida"></p>
+</body>
+
+</html>
+
+<script type="text/javascript">
+    function vaciar() {
+        campo = document.getElementById("ip").value;
+        //la condición
+        if (campo.length == 0) {
+            document.getElementById("valida").innerHTML = "Introduce una IP valida. ";
+            document.getElementById("btnIp").typ
+
+        }else{
+            document.getElementById("valida").innerHTML = "";
+        }
+        
+    }
+</script>
