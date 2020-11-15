@@ -13,9 +13,11 @@
     <body>
 
 <?php
+//este es un comentario que he añadido posteriormente a la entrega del proyecto para hacer pruebas
+//con la conexion SSH
     require_once __DIR__ . '/vendor/autoload.php';
     use Foolz\Inet\Inet;
-    use ipinfo\ipinfo\IPinfo;
+    use ipinfo\ipinfo\IPinfo; 
 
 
 if (isset($_REQUEST['btnEnviar']) && !empty($_REQUEST['ip'])){
